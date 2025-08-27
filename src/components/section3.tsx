@@ -3,7 +3,6 @@ import ad2 from "@/assets/ad2.png";
 import ad3 from "@/assets/ad3.png";
 import advantage2 from "@/assets/channel_cover.png";
 import advantage3 from "@/assets/custom_plan.png";
-import advantage1 from "@/assets/data-driver.png";
 import advantage4 from "@/assets/effect_ruler.png";
 import { GiComputing, GiPlatform } from "react-icons/gi";
 import { TbCloudComputing, TbMessage2Search } from "react-icons/tb";
@@ -11,6 +10,11 @@ import { RiColorFilterLine } from "react-icons/ri";
 import { MdDynamicFeed } from "react-icons/md";
 import { IoShareSocialOutline } from "react-icons/io5";
 import { CgShoppingBag } from "react-icons/cg";
+import { IoLogoDesignernews } from "react-icons/io5";
+import { MdOutlineVideoLibrary } from "react-icons/md";
+import { CiStreamOn } from "react-icons/ci";
+import { MdOutlineDesignServices } from "react-icons/md";
+
 
 export function Section3() {
   return (
@@ -31,7 +35,9 @@ export function Section3() {
         </div>
         <div className="grid grid-cols-4 gap-5 text-gray-500 border border-t-0 border-gray-100 pb-5">
           <div className="flex flex-col items-center gap-4">
-            <img src={advantage1} alt="1" />
+            <div className="h-28 w-28 border-4 border-cyan-400 rounded-full flex justify-center items-center">
+              <IoLogoDesignernews fontSize={50} className="text-cyan-400" />
+            </div>
             <div>Graphic design</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
             <div className="text-sm">
@@ -39,7 +45,9 @@ export function Section3() {
             </div>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <img src={advantage2} alt="2" />
+            <div className="h-28 w-28 border-4 border-lime-400 rounded-full flex justify-center items-center">
+              <MdOutlineVideoLibrary fontSize={50} className="text-lime-400" />
+            </div>
             <div>Video production</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
             <div className="text-sm">
@@ -47,13 +55,17 @@ export function Section3() {
             </div>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <img src={advantage3} alt="3" />
+            <div className="h-28 w-28 border-4 border-indigo-400 rounded-full flex justify-center items-center">
+              <CiStreamOn fontSize={50} className="text-indigo-400" />
+            </div>
             <div>Digital advertising materials</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
             <div className="text-sm">Feed ads, H5 pages, dynamic ads</div>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <img src={advantage4} alt="4" />
+            <div className="h-28 w-28 border-4 border-amber-400 rounded-full flex justify-center items-center">
+              <MdOutlineDesignServices fontSize={50} className="text-amber-400" />
+            </div>
             <div>Brand visual design</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
             <div className="text-sm">LOGO, VI system, packaging design</div>
