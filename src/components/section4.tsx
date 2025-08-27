@@ -28,7 +28,11 @@ export function Section4() {
       <div className="flex justify-between items-center w-[1200px] mx-auto flex-col">
         <div className="w-full bg-amber-50">
           <APILoader akay="Qhfw6KkSVThiwcps8wv5fBkPv0KMQp9a">
-            <Map center={location} style={{ width: "100%", height: "400px" }}>
+            <Map
+              center={location}
+              style={{ width: "100%", height: "400px" }}
+              widget={["NavigationControl"]}
+            >
               <InfoWindow isOpen position={location}>
                 <div className="text-xs">
                   <div>
@@ -43,7 +47,9 @@ export function Section4() {
         </div>
         <div className="text-center py-20 shadow-lg mb-10 w-[900px] -mt-[100px] z-10 bg-white">
           <div className="mb-10">
-            <div className="text-[60px] text-primary/10 tracking-wider ">CONTACT US</div>
+            <div className="text-[60px] text-primary/10 tracking-wider ">
+              CONTACT US
+            </div>
             <div className="text-primary -mt-12 text-3xl tracking-wide">
               contact information
             </div>
