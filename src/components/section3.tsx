@@ -1,9 +1,6 @@
 import ad1 from "@/assets/ad1.png";
 import ad2 from "@/assets/ad2.png";
 import ad3 from "@/assets/ad3.png";
-import advantage2 from "@/assets/channel_cover.png";
-import advantage3 from "@/assets/custom_plan.png";
-import advantage4 from "@/assets/effect_ruler.png";
 import { GiComputing, GiPlatform } from "react-icons/gi";
 import { TbCloudComputing, TbMessage2Search } from "react-icons/tb";
 import { RiColorFilterLine } from "react-icons/ri";
