@@ -1,19 +1,7 @@
 import bgImg from "@/assets/contact_bg.jpg";
 import { APILoader, InfoWindow, Map } from "@uiw/react-baidu-map";
-import { useState } from "react";
 
 export function Section4() {
-  const [visiable, setVisiable] = useState(true);
-  const [isOpen, setIsOpen] = useState(true);
-  const [content, setContent] = useState(
-    "上海市 <del>青浦区</del> 徐泾镇盈港东路",
-  );
-
-  function infoWindowRef(props) {
-    if (props && props.infoWindow) {
-      console.log("infoWindow:", props.infoWindow, props.map, props.BMap);
-    }
-  }
   return (
     <section id="contact" className="text-center w-full">
       <div
