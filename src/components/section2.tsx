@@ -6,7 +6,9 @@ export function Section2() {
   return (
     <section className="w-[1200px] text-center" id="market">
       <div className="text-2xl">Marketing Services</div>
-      <div className="h-px bg-gray-100 my-5 w-full" />
+      <div className="h-px bg-gray-100 my-5 w-full flex justify-center">
+        <div className="-mt-1.5 h-3 w-3 bg-gray-200 rotate-45"></div>
+      </div>
       <div className="mb-10">
         We provide comprehensive marketing solutions to help enterprises enhance
         brand competitiveness, accurately reach target customers, and achieve
@@ -84,25 +86,34 @@ export function Section2() {
             <img src={advantage1} alt="1" />
             <div>Data-driven</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
-            <div className="text-sm">Precise marketing strategies based on big data analysis.</div>
+            <div className="text-sm">
+              Precise marketing strategies based on big data analysis.
+            </div>
           </div>
           <div className="flex flex-col items-center gap-4">
             <img src={advantage2} alt="2" />
             <div>Omni-channel coverage</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
-            <div className="text-sm">Integrated online and offline marketing to maximize brand exposure.</div>
+            <div className="text-sm">
+              Integrated online and offline marketing to maximize brand
+              exposure.
+            </div>
           </div>
           <div className="flex flex-col items-center gap-4">
             <img src={advantage3} alt="3" />
             <div>Customized solutions</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
-            <div className="text-sm">Personalized services tailored to enterprise needs.</div>
+            <div className="text-sm">
+              Personalized services tailored to enterprise needs.
+            </div>
           </div>
           <div className="flex flex-col items-center gap-4">
             <img src={advantage4} alt="4" />
             <div>Measurable results</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
-            <div className="text-sm">Real-time data monitoring to optimize ROI.</div>
+            <div className="text-sm">
+              Real-time data monitoring to optimize ROI.
+            </div>
           </div>
         </div>
       </div>

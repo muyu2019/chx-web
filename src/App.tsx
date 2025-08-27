@@ -5,7 +5,7 @@ import { LiaPhoneVolumeSolid } from "react-icons/lia";
 function App() {
   return (
     <div className="flex flex-col min-h-screen min-w-[1200px]">
-      <header className="bg-primary py-10 text-white flex justify-center">
+      <header className="bg-primary py-10 text-white flex justify-center sticky top-0 z-10">
         <div className="flex justify-between items-center px-5 w-[1200px]">
           <div>
             Mianyang Economic Development Zone Chengxing Marketing Planning
