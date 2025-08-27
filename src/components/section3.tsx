@@ -8,101 +8,194 @@ import advantage4 from "@/assets/effect_ruler.png";
 export function Section3() {
   return (
     <section id="ad" className="w-[1200px] text-center flex flex-col">
-      <div className="text-2xl">广告设计与制作</div>
+      <div className="text-2xl">Advertising Services</div>
       <div className="h-px bg-gray-100 my-5 w-full" />
-      <div className="mb-10">Advertisement Design and Production</div>
+      <div className="mb-10">Advertising Design & Production</div>
       {/*  */}
       <div className="mb-20">
         <div className="border border-b-0 border-gray-100 py-5 mb-10">
-          <div className="text-2xl mb-1">服务范围</div>
+          <div className="text-2xl mb-1">Service Scope</div>
           <div className="text-base text-gray-500">
-            我们提供从创意到落地的全流程广告设计服务
+            We provide end-to-end advertising design services from concept to execution
           </div>
         </div>
         <div className="grid grid-cols-4 gap-5 text-gray-500 border border-t-0 border-gray-100 pb-5">
           <div className="flex flex-col items-center gap-4">
             <img src={advantage1} alt="1" />
-            <div>平面广告设计</div>
+            <div>Graphic design</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
-            <div className="text-sm">海报、画册、折页、展板、易拉宝等</div>
+            <div className="text-sm">Posters, brochures, flyers, display boards, roll-up banners, etc.</div>
           </div>
           <div className="flex flex-col items-center gap-4">
             <img src={advantage2} alt="2" />
-            <div>视频广告制作</div>
+            <div>Video production</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
-            <div className="text-sm">宣传片、TVC广告、短视频、动画广告</div>
+            <div className="text-sm">Promotional videos, TV commercials, short videos, animated ads</div>
           </div>
           <div className="flex flex-col items-center gap-4">
             <img src={advantage3} alt="3" />
-            <div>数字广告素材</div>
+            <div>Digital advertising materials</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
-            <div className="text-sm">信息流广告图、H5页面、动态广告</div>
+            <div className="text-sm">Feed ads, H5 pages, dynamic ads</div>
           </div>
           <div className="flex flex-col items-center gap-4">
             <img src={advantage4} alt="4" />
-            <div>品牌视觉设计</div>
+            <div>Brand visual design</div>
             <div className="h-0.5 bg-gray-300 w-1/3" />
-            <div className="text-sm">LOGO、VI系统、包装设计</div>
+            <div className="text-sm">LOGO, VI system, packaging design</div>
           </div>
         </div>
       </div>
       {/*  */}
       <div className="border border-b-0 border-gray-100 py-5 mb-10">
-        <div className="text-2xl mb-1">服务流程</div>
-        <div className="text-lg text-gray-500">Service Process</div>
+        <div className="text-2xl mb-1">Service Process</div>
       </div>
       <div className="grid grid-cols-5 gap-5 mb-20">
         <div className="border border-gray-100 p-5 border-b-0">
-          <div className="text-lg mb-4">需求沟通</div>
+          <div className="text-lg mb-4">Requirement communication</div>
           <div className="text-sm text-gray-500 leading-relaxed">
-            <div>了解客户品牌调性与广告目标 </div>
+            <div>Understand client brand tone and advertising goals</div>
           </div>
         </div>
         <div className="border border-gray-100 p-5 border-b-0">
-          <div className="text-lg mb-4">创意策划</div>
+          <div className="text-lg mb-4">Creative planning</div>
           <div className="text-sm text-gray-500 leading-relaxed">
-            <div>提供创意方案与视觉风格提案 </div>
+            <div>Provide creative proposals and visual style concepts</div>
           </div>
         </div>
         <div className="border border-gray-100 p-5 border-b-0">
-          <div className="text-lg mb-4">设计执行</div>
+          <div className="text-lg mb-4">Design execution</div>
           <div className="text-sm text-gray-500 leading-relaxed">
-            <div>专业团队完成高质量设计 </div>
+            <div>High-quality design delivery by a professional team</div>
           </div>
         </div>
         <div className="border border-gray-100 p-5 border-b-0">
-          <div className="text-lg mb-4">修改优化</div>
+          <div className="text-lg mb-4">Revisions and optimization</div>
           <div className="text-sm text-gray-500 leading-relaxed">
-            <div>根据反馈调整细节</div>
+            <div>Adjust details based on feedback</div>
           </div>
         </div>
         <div className="border border-gray-100 p-5 border-b-0">
-          <div className="text-lg mb-4">成品交付</div>
+          <div className="text-lg mb-4">Final delivery</div>
           <div className="text-sm text-gray-500 leading-relaxed">
-            <div>提供高清源文件及适配各平台的格式</div>
+            <div>Provide high-resolution source files and formats adapted for various platforms</div>
+          </div>
+        </div>
+      </div>
+      <div className="mb-10">
+        <div className="border border-b-0 border-gray-100 py-5 mb-10">
+          <div className="text-2xl mb-1">Core Advantages</div>
+        </div>
+        <div className="grid grid-cols-3 gap-5 text-gray-500 border border-t-0 border-gray-100 pb-5">
+          <div className="flex flex-col items-center gap-4">
+            <img src={ad1} alt="1" />
+            <div className="font-bold text-gray-700">Unique creativity</div>
+            <div className="text-sm">Experienced design team creating differentiated visuals</div>
+          </div>
+          <div className="flex flex-col items-center gap-4">
+            <img src={ad2} alt="2" />
+            <div className="font-bold text-gray-700">Efficient execution</div>
+            <div className="text-sm">Quick response and strict adherence to deadlines</div>
+          </div>
+          <div className="flex flex-col items-center gap-4">
+            <img src={ad3} alt="3" />
+            <div className="font-bold text-gray-700">Multi-scenario adaptation</div>
+            <div className="text-sm">Ensure optimal display effects across different media</div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="mb-10">Internet Advertising Placement</div>
+      {/*  */}
+      <div className="mb-20">
+        <div className="border border-b-0 border-gray-100 py-5 mb-10">
+          <div className="text-2xl mb-1">Service Content</div>
+          <div className="text-base text-gray-500">
+            We help enterprises place targeted ads on mainstream internet platforms to enhance brand exposure and conversion:
+          </div>
+        </div>
+        <div className="grid grid-cols-5 gap-5 text-gray-500 border border-t-0 border-gray-100 pb-5">
+          <div className="flex flex-col items-center gap-4">
+            <img src={advantage1} alt="1" />
+            <div>Feed ads</div>
+            <div className="h-0.5 bg-gray-300 w-1/3" />
+            <div className="text-sm">Tencent Guangdiantong, Ocean Engine, Kuaishou Magnet Engine, etc.</div>
+          </div>
+          <div className="flex flex-col items-center gap-4">
+            <img src={advantage2} alt="2" />
+            <div>Search engine ads</div>
+            <div className="h-0.5 bg-gray-300 w-1/3" />
+            <div className="text-sm">Baidu, 360, Sogou SEM</div>
+          </div>
+          <div className="flex flex-col items-center gap-4">
+            <img src={advantage3} alt="3" />
+            <div>Social media ads</div>
+            <div className="h-0.5 bg-gray-300 w-1/3" />
+            <div className="text-sm">WeChat Moments, Weibo, Xiaohongshu</div>
+          </div>
+          <div className="flex flex-col items-center gap-4">
+            <img src={advantage4} alt="4" />
+            <div>E-commerce ads</div>
+            <div className="h-0.5 bg-gray-300 w-1/3" />
+            <div className="text-sm">Tmall, JD, Pinduoduo in-platform promotions</div>
+          </div>
+          <div className="flex flex-col items-center gap-4">
+            <img src={advantage4} alt="4" />
+            <div>Programmatic buying (DSP)</div>
+            <div className="h-0.5 bg-gray-300 w-1/3" />
+            <div className="text-sm">Cross-platform intelligent ad placement</div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="border border-b-0 border-gray-100 py-5 mb-10">
+        <div className="text-2xl mb-1">Placement Strategy</div>
+      </div>
+      <div className="grid grid-cols-4 gap-5 mb-20">
+        <div className="border border-gray-100 p-5 border-b-0">
+          <div className="text-lg mb-4">Precise targeting</div>
+          <div className="text-sm text-gray-500 leading-relaxed">
+            <div>Lock target audiences based on user profiles (age, interests, location, etc.)</div>
+          </div>
+        </div>
+        <div className="border border-gray-100 p-5 border-b-0">
+          <div className="text-lg mb-4">A/B testing</div>
+          <div className="text-sm text-gray-500 leading-relaxed">
+            <div>Optimize ad creatives and landing pages to improve click-through rates</div>
+          </div>
+        </div>
+        <div className="border border-gray-100 p-5 border-b-0">
+          <div className="text-lg mb-4">Data analysis</div>
+          <div className="text-sm text-gray-500 leading-relaxed">
+            <div>Real-time monitoring of ad performance and budget adjustment</div>
+          </div>
+        </div>
+        <div className="border border-gray-100 p-5 border-b-0">
+          <div className="text-lg mb-4">Performance optimization</div>
+          <div className="text-sm text-gray-500 leading-relaxed">
+            <div>Reduce customer acquisition costs and improve ROI</div>
           </div>
         </div>
       </div>
       <div>
         <div className="border border-b-0 border-gray-100 py-5 mb-10">
-          <div className="text-2xl mb-1">我们的优势</div>
-          <div className="text-base text-gray-500">OUR ADVANTAGE</div>
+          <div className="text-2xl mb-1">Service Advantages</div>
         </div>
         <div className="grid grid-cols-3 gap-5 text-gray-500 border border-t-0 border-gray-100 pb-5">
           <div className="flex flex-col items-center gap-4">
             <img src={ad1} alt="1" />
-            <div className="font-bold text-gray-700">创意独特</div>
-            <div className="text-sm">资深设计师团队，打造差异化视觉</div>
+            <div className="font-bold text-gray-700">Rich platform resources</div>
+            <div className="text-sm">Deep collaborations with major media platforms for premium traffic</div>
           </div>
           <div className="flex flex-col items-center gap-4">
             <img src={ad2} alt="2" />
-            <div className="font-bold text-gray-700">高效执行</div>
-            <div className="text-sm">快速响应，严格把控交付时间</div>
+            <div className="font-bold text-gray-700">Technology-enabled</div>
+            <div className="text-sm">AI algorithm optimization for improved ad efficiency</div>
           </div>
           <div className="flex flex-col items-center gap-4">
             <img src={ad3} alt="3" />
-            <div className="font-bold text-gray-700">多场景适配</div>
-            <div className="text-sm">确保广告在不同媒介的展示效果</div>
+            <div className="font-bold text-gray-700">Transparent management</div>
+            <div className="text-sm">Detailed data reporting for clear visibility of ad performance</div>
           </div>
         </div>
       </div>
