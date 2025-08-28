@@ -1,6 +1,6 @@
 import { Section1, Section2, Section3, Section4 } from "@/components";
 import { MdOutlineLocationOn, MdOutlineMailOutline } from "react-icons/md";
-import { LiaPhoneVolumeSolid } from "react-icons/lia";
+// import { LiaPhoneVolumeSolid } from "react-icons/lia";
 
 function App() {
   return (
@@ -32,10 +32,10 @@ function App() {
               Mianyang Economic Development Zone Chengxing Marketing Planning
               Studio
             </div>
-            <div className="flex items-center gap-2">
-              <LiaPhoneVolumeSolid className="text-base" /> Contact Hotline:
-              1XXXXXXXXXX
-            </div>
+            {/*<div className="flex items-center gap-2">*/}
+            {/*  <LiaPhoneVolumeSolid className="text-base" /> Contact Hotline:*/}
+            {/*  1XXXXXXXXXX*/}
+            {/*</div>*/}
             <div className="flex items-center gap-2">
               <MdOutlineMailOutline className="text-base" />
               Email: 310389047@qq.com

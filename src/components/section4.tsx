@@ -5,7 +5,7 @@ import {
   MdOutlineLocationOn,
   MdOutlineMailOutline,
 } from "react-icons/md";
-import { LiaPhoneVolumeSolid } from "react-icons/lia";
+// import { LiaPhoneVolumeSolid } from "react-icons/lia";
 
 export function Section4() {
   const location = { lng: 104.79, lat: 31.41 };
@@ -59,10 +59,10 @@ export function Section4() {
               <MdAccessTime className="shrink-0 text-primary text-lg" /> Service
               hours: Monday to Sunday (9:00-18:00)
             </div>
-            <div className="flex items-center gap-2">
-              <LiaPhoneVolumeSolid className="shrink-0 text-primary text-lg" />{" "}
-              Contact Hotline: 1XXXXXXXXXX
-            </div>
+            {/*<div className="flex items-center gap-2">*/}
+            {/*  <LiaPhoneVolumeSolid className="shrink-0 text-primary text-lg" />{" "}*/}
+            {/*  Contact Hotline: 1XXXXXXXXXX*/}
+            {/*</div>*/}
             <div className="flex items-center gap-2">
               <MdOutlineMailOutline className="shrink-0 text-primary text-lg" />{" "}
               Company email: 310389047@qq.com
