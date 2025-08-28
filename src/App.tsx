@@ -38,7 +38,7 @@ function App() {
             {/*</div>*/}
             <div className="flex items-center gap-2">
               <MdOutlineMailOutline className="text-base" />
-              Email: 310389047@qq.com
+              Email: shunxinxin@126.com
             </div>
             <div className="flex items-start gap-2">
               <MdOutlineLocationOn className="text-base shrink-0" />

@@ -65,7 +65,7 @@ export function Section4() {
             {/*</div>*/}
             <div className="flex items-center gap-2">
               <MdOutlineMailOutline className="shrink-0 text-primary text-lg" />{" "}
-              Company email: 310389047@qq.com
+              Company email: shunxinxin@126.com
             </div>
             <div className="flex items-start gap-1">
               <MdOutlineLocationOn className="shrink-0 text-primary text-lg" />
