@@ -34,7 +34,7 @@ function App() {
             </div>
             <div className="flex items-center gap-2">
               <LiaPhoneVolumeSolid className="text-base" /> Contact Hotline:
-              18677315987
+              1XXXXXXXXXX
             </div>
             <div className="flex items-center gap-2">
               <MdOutlineMailOutline className="text-base" />

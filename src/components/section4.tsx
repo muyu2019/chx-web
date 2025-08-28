@@ -61,7 +61,7 @@ export function Section4() {
             </div>
             <div className="flex items-center gap-2">
               <LiaPhoneVolumeSolid className="shrink-0 text-primary text-lg" />{" "}
-              Contact Hotline: 18677315987
+              Contact Hotline: 1XXXXXXXXXX
             </div>
             <div className="flex items-center gap-2">
               <MdOutlineMailOutline className="shrink-0 text-primary text-lg" />{" "}
